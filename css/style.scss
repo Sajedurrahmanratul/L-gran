@@ -20,6 +20,7 @@ body{
     font-family: 'Chivo', sans-serif;
     font-family: 'Overpass', sans-serif;
     overflow-x: hidden;
+    height: 10000px;
 }
 
 
@@ -140,5 +141,78 @@ About-us Css
                 color: $primary-color;
             }
         }
+    }
+}
+
+
+/*=============================================================
+Our Food Quality Css
+=============================================================*/
+
+.our-food-quality{
+    background: url(/img/sec2-bg-min-min.jpg);
+    width: 100%;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+
+    .head{
+        margin-bottom: 60px;  
+    }
+
+    .content{
+        p{
+            margin-bottom: 50px;
+        }
+
+        h4{
+            color: $primary-color;
+        }
+    }
+}
+
+
+/*=============================================================
+Book Now Css
+=============================================================*/
+
+
+.booknow{
+    background: #1d1d1d;
+    padding: 50px 0;
+    .form{
+        .form-control{
+            background: transparent;
+            border: 1px solid $primary-color;
+            padding: 10px 25px;
+        }
+    }
+
+    .button{
+        .btn-primary{
+            background: $primary-color;
+            border: none ;
+            font-family: 'Chivo', sans-serif;
+            padding: 0;
+            padding: 10px 90px 5px 90px;
+            a{
+                color: $dark-color;
+                
+            }
+        }
+    }
+}
+
+/*=============================================================
+Photo display Css
+=============================================================*/
+
+.photo-display{
+    .img{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
     }
 }

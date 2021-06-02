@@ -15,6 +15,7 @@ body {
   font-family: 'Chivo', sans-serif;
   font-family: 'Overpass', sans-serif;
   overflow-x: hidden;
+  height: 10000px;
 }
 
 /*=============================================================
@@ -137,5 +138,68 @@ About-us Css
 
 .about-us .contents h3 span {
   color: #ffc901;
+}
+
+/*=============================================================
+Our Food Quality Css
+=============================================================*/
+.our-food-quality {
+  background: url(/img/sec2-bg-min-min.jpg);
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.our-food-quality .head {
+  margin-bottom: 60px;
+}
+
+.our-food-quality .content p {
+  margin-bottom: 50px;
+}
+
+.our-food-quality .content h4 {
+  color: #ffc901;
+}
+
+/*=============================================================
+Book Now Css
+=============================================================*/
+.booknow {
+  background: #1d1d1d;
+  padding: 50px 0;
+}
+
+.booknow .form .form-control {
+  background: transparent;
+  border: 1px solid #ffc901;
+  padding: 10px 25px;
+}
+
+.booknow .button .btn-primary {
+  background: #ffc901;
+  border: none;
+  font-family: 'Chivo', sans-serif;
+  padding: 0;
+  padding: 10px 90px 5px 90px;
+}
+
+.booknow .button .btn-primary a {
+  color: #000;
+}
+
+/*=============================================================
+Photo display Css
+=============================================================*/
+.photo-display .img {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=style.css.map */
