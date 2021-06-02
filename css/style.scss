@@ -1,0 +1,144 @@
+/*=============================================================
+Variable Css
+=============================================================*/
+$primary-color: #ffc901;
+$dark-color: #000;
+$white-color: #fff;
+$gray-color: #575755;
+
+/*=============================================================
+Common Css
+=============================================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Chivo', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/*=============================================================
+Fonts Css
+=============================================================*/
+
+h1{
+    font-family: 'Chivo', sans-serif;
+    font-size: 70px;
+    font-weight: normal;
+}
+
+h2{
+    font-family: 'Chivo', sans-serif;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Overpass', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h4{
+    font-family: 'Overpass', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+p{
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a{
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: $white-color;
+    text-decoration: none;
+
+    &:hover{
+        color: $white-color;
+        text-decoration: none;
+    }
+}
+
+/*=============================================================
+Navbar Css
+=============================================================*/
+
+nav{
+    background-color: $gray-color;
+}
+
+/*=============================================================
+Header Css
+=============================================================*/
+
+header{
+   background: url(/img/header-min.jpg);
+   
+    width: 100%;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 200px 0;
+    z-index: -1;
+
+    .hero{
+        z-index: 1;
+        padding: 110px 0 0 0;
+        h2{
+            color: $white-color;
+        }
+    
+        h3{
+            color: $primary-color;
+        }
+    
+        .book-now{
+            color: $white-color;
+    
+            span{
+                color: $primary-color;
+            }
+        }
+    }
+}
+
+/*=============================================================
+About-us Css
+=============================================================*/
+
+.about-us{
+    background: url(/img/sec1-bg.png.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: fit-content;
+    padding: 100px 0 80px 0;
+    
+    .head{
+     margin-bottom: 60px;  
+    }
+
+    .contents{
+      
+        height: fit-content;
+
+        h3{
+            color: $white-color;
+            span{
+                color: $primary-color;
+            }
+        }
+    }
+}
